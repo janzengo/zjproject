@@ -125,11 +125,10 @@
             </p>
          </footer>
       </div>
-      <script src="js/jquery.min.js"></script>
-      <script src="js/parallax.min.js"></script>
-      <script src="js/smoothscroll.js"></script>
-
-      <script>
+      <script src="js/jquery.min.js" defer></script>
+      <script src="js/parallax.min.js" defer></script>
+      <script src="js/smoothscroll.js" defer></script>
+      <script defer>
          $(document).ready(function(){
          	var acc = document.getElementsByClassName("accordion");
          	var i;
@@ -157,7 +156,6 @@
                   a.style.display = "none";
                }
          }
-             
              function reSize(y) {
          if (y.matches) {
           document.getElementById("myDIV").style.display ="none";
